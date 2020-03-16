@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cpb_white"
+    android:orientation="vertical"
+    tools:context=".ui.activity.FakeJikeActivity">
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1111"
+        android:textSize="33sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.engineer.imitate.ui.widget.view.AnimationBorder
+            android:id="@+id/animation_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_margin="3dp"
+                android:id="@+id/follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注" />
+
+        </com.engineer.imitate.ui.widget.view.AnimationBorder>
+    </LinearLayout>
+
+
+    <com.zhy.view.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/toast1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toast1" />
+
+        <Button
+            android:id="@+id/toast2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toast2" />
+
+        <Button
+            android:id="@+id/toast3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toast3" />
+
+        <Button
+            android:id="@+id/toast4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toast4" />
+    </com.zhy.view.flowlayout.FlowLayout>
+
+
+</LinearLayout>

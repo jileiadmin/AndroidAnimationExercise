@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ParallaxView">
+        <attr name="isEnabledHorizontalParallax" format="boolean"/>
+        <attr name="isEnabledVerticalParallax" format="boolean"/>
+        <attr name="isInvertedHorizontalParallax" format="boolean"/>
+        <attr name="isInvertedVerticalParallax" format="boolean"/>
+        <attr name="isNeedScale" format="boolean"/>
+        <attr name="decelerateFactor" format="float"/>
+        <attr name="parallaxScale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerLayout">
+        <attr name="shimmer_color" format="color|reference"/>
+        <attr name="shimmer_animation_duration" format="integer|reference"/>
+        <attr name="shimmer_auto_start" format="boolean|reference"/>
+        <attr name="shimmer_angle" format="integer|reference"/>
+        <attr name="shimmer_mask_width" format="float|reference"/>
+        <attr name="shimmer_gradient_center_color_width" format="float|reference"/>
+        <attr name="shimmer_reverse_animation" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedCountTextView">
+        <attr name="startWith" format="string"/>
+        <attr name="endWith" format="string"/>
+        <attr name="duration" format="integer"/>
+        <attr name="prefix" format="string"/>
+        <attr name="suffix" format="string"/>
+
+        <attr name="numberType">
+            <enum name="integer" value="1" />
+            <enum name="decimal" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

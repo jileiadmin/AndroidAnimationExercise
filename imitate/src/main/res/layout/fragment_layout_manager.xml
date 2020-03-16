@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.LayoutManagerFragment">
+
+    <LinearLayout
+        android:id="@+id/container_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/container_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" />
+
+    <com.engineer.imitate.ui.widget.custom.StackViewLayout
+        android:id="@+id/stack_view_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cpb_red"
+        android:layoutDirection="ltr">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#000"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+
+    </com.engineer.imitate.ui.widget.custom.StackViewLayout>
+
+    <com.engineer.imitate.ui.widget.custom.StackViewLayout
+        android:id="@+id/stack_view_layout_2"
+        android:background="@color/cpb_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layoutDirection="rtl">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#000"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/girl"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+    </com.engineer.imitate.ui.widget.custom.StackViewLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="home.smart.fly.animations.AppStartActivity">
+
+    <item
+        android:id="@+id/change_theme"
+        android:icon="@drawable/ic_card_24dp"
+        android:title="@string/catch_null"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/data_view_chart"
+        android:icon="@drawable/ic_show_chart_black_24dp"
+        android:title="@string/data_view_chart"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_file_util"
+        android:icon="@drawable/ic_insert_drive_file_black_24dp"
+        android:title="@string/file_util"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_all"
+        android:icon="@drawable/ic_all_inclusive_white_24dp"
+        android:title="@string/all_activity"
+        app:showAsAction="ifRoom" />
+</menu>

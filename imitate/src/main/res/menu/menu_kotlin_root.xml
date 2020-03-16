@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.engineer.imitate.KotlinRootActivity">
+
+    <item
+        android:id="@+id/theme_switch"
+        android:icon="@drawable/ic_brightness_low_white_24dp"
+        android:orderInCategory="100"
+        android:title="theme_switch"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/switchview"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_change"
+        android:title="@string/change"
+        app:showAsAction="never" />
+</menu>

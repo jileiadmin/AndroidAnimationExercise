@@ -1,0 +1,8 @@
+/build
+/release
+/free
+.apk
+output.json
+*.project
+*.settings/
+*.classpath
